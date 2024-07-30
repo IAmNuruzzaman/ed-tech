@@ -1,0 +1,246 @@
+/* common css  */
+
+
+
+
+
+
+
+
+/* top header css  */
+
+.header-corousel-one{
+    background-image: url(images/cover/cover-1.png);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 200px;
+    height: 500px;
+    color: white;
+}
+.header-corousel-two{
+    background-image: url(images/cover/cover-2.jpg);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 200px;
+    height: 500px;
+   
+}
+.header-corousel-three{
+    background-image: url(images/cover/cover-3.jpg);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 200px;
+    height: 500px;
+    color: white;
+}
+
+/* Discover Our Popular Courses */
+
+
+.popular-course-caption{
+    margin: 50px;
+}
+
+.popular-course-caption h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.popular-course-caption p{
+    text-align: center;
+}
+
+.popular-course-blog{
+    display:flex;
+    /* width: 50%; */
+    border: 1px solid rgb(218, 208, 208);
+    border-radius: 10px;
+}
+
+.popular-course-blog img{
+    margin-right: 20px;
+    
+}
+
+.popular-course-blog h3{
+    font-size: 24px;
+}
+.price{
+    color: #289BDE;
+}
+
+
+.popular-course-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.popular-course-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    
+}
+
+.btn-postion{
+    
+    /* text-align: center; */
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+
+/* explore-elearning website  */
+
+
+.explore-elearning-website{
+    display: flex;
+}
+
+
+.explore-elearning-website img{
+    width: 600px;
+    height: 706px;
+    margin-right: 20px;
+}
+
+
+.explore-elearning-website-grid{
+    display: flex;
+    gap: 50px;
+}
+
+.explore-elearning-website-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.explore-elearning-website-one,h1,p,button{
+    padding-bottom: 25px;
+}
+
+
+
+/* ready to join  */
+
+.ready-to-join{
+    height: 250px;
+    display: flex;
+    background-color: #289BDE;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.btn-register{
+    color: #289BDE;
+}
+
+
+
+.ready-to-join-one{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+.ready-to-join-two{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/* Meet Our Successfull Students  */
+
+
+.successful-student{
+    margin-right: auto;
+}
+
+.successful-student img{
+    width: 260px;
+    height: 260px;
+    
+}
+
+
+
+
+
+
+/* Some Students Feedback */
+
+.quation-colour{
+    color: gray;
+    
+}
+
+.star-colour-one{
+    color: #FBBF24;
+}
+
+.star-colour-two{
+    color: #e2d7aa;
+}
+
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-info{
+    display: flex;
+}
+
+.student-info img{
+    margin-right: 20px;
+}
+
+
+.student-feedback{
+    margin-right: 20px;
+}
+
+
+
+/* Trusted by over 800+ companies  */
+.compani-name{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* footer  */
+
+.pro-footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+   
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px;
+}
