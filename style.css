@@ -9,7 +9,7 @@
 
 /* top header css  */
 
-.header-corousel-one{
+.header-corousel-one {
     background-image: url(images/cover/cover-1.png);
     text-align: center;
     margin-top: 10px;
@@ -17,15 +17,17 @@
     height: 500px;
     color: white;
 }
-.header-corousel-two{
+
+.header-corousel-two {
     background-image: url(images/cover/cover-2.jpg);
     text-align: center;
     margin-top: 10px;
     padding-top: 200px;
     height: 500px;
-   
+
 }
-.header-corousel-three{
+
+.header-corousel-three {
     background-image: url(images/cover/cover-3.jpg);
     text-align: center;
     margin-top: 10px;
@@ -37,60 +39,61 @@
 /* Discover Our Popular Courses */
 
 
-.popular-course-caption{
+.popular-course-caption {
     margin: 50px;
 }
 
-.popular-course-caption h1{
+.popular-course-caption h1 {
     text-align: center;
     font-size: 45px;
 }
 
-.popular-course-caption p{
+.popular-course-caption p {
     text-align: center;
 }
 
-.popular-course-blog{
-    display:flex;
+.popular-course-blog {
+    display: flex;
     /* width: 50%; */
     border: 1px solid rgb(218, 208, 208);
     border-radius: 10px;
 }
 
-.popular-course-blog img{
+.popular-course-blog img {
     margin-right: 20px;
-    
+
 }
 
-.popular-course-blog h3{
+.popular-course-blog h3 {
     font-size: 24px;
 }
-.price{
+
+.price {
     color: #289BDE;
 }
 
 
-.popular-course-inner{
+.popular-course-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 
-.popular-course-grid{
+.popular-course-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    
+
 }
 
-.btn-postion{
-    
+.btn-postion {
+
     /* text-align: center; */
     margin-left: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
-   
+
 }
 
 
@@ -100,32 +103,35 @@
 /* explore-elearning website  */
 
 
-.explore-elearning-website{
+.explore-elearning-website {
     display: flex;
 }
 
 
-.explore-elearning-website img{
+.explore-elearning-website img {
     width: 600px;
     height: 706px;
     margin-right: 20px;
 }
 
 
-.explore-elearning-website-grid{
+.explore-elearning-website-grid {
     display: flex;
     gap: 50px;
 }
 
-.explore-elearning-website-one{
+.explore-elearning-website-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+
+
 }
 
-.explore-elearning-website-one,h1,p,button{
+.explore-elearning-website-one,
+h1,
+p,
+button {
     padding-bottom: 25px;
 }
 
@@ -133,32 +139,32 @@
 
 /* ready to join  */
 
-.ready-to-join{
+.ready-to-join {
     height: 250px;
     display: flex;
     background-color: #289BDE;
     display: flex;
     align-items: center;
-    
+
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 
 
-.btn-register{
+.btn-register {
     color: #289BDE;
 }
 
 
 
-.ready-to-join-one{
+.ready-to-join-one {
     width: 50%;
     margin-left: 50px;
 }
 
 
-.ready-to-join-two{
+.ready-to-join-two {
     width: 50%;
     text-align: center;
 }
@@ -167,15 +173,20 @@
 
 /* Meet Our Successfull Students  */
 
+.successful-students {
+    display: flex;
 
-.successful-student{
-    margin-right: auto;
 }
 
-.successful-student img{
+.successful-student {
+    margin-right: auto;
+
+}
+
+.successful-student img {
     width: 260px;
     height: 260px;
-    
+
 }
 
 
@@ -185,48 +196,48 @@
 
 /* Some Students Feedback */
 
-.quation-colour{
+.quation-colour {
     color: gray;
-    
+
 }
 
-.star-colour-one{
+.star-colour-one {
     color: #FBBF24;
 }
 
-.star-colour-two{
+.star-colour-two {
     color: #e2d7aa;
 }
 
 
-.rating{
+.rating {
     display: flex;
     justify-content: space-between;
 }
 
-.student-info{
+.student-info {
     display: flex;
 }
 
-.student-info img{
+.student-info img {
     margin-right: 20px;
 }
 
 
-.student-feedback{
+.student-feedback {
     margin-right: 20px;
 }
 
 
 
 /* Trusted by over 800+ companies  */
-.compani-name{
+.compani-name {
     text-align: center;
     margin-top: 50px;
 }
 
 
-.companies{
+.companies {
     display: flex;
     justify-content: space-between;
 }
@@ -235,12 +246,136 @@
 
 /* footer  */
 
-.pro-footer{
+.pro-footer {
     height: 300px;
     background-color: black;
     color: white;
-   
+
     margin-top: 50px;
     text-align: center;
     padding: 0px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .popular-course-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-postion {
+        margin-left: 250px;
+    }
+
+    .explore-elearning-website img {
+        width: 300px;
+        height: 706px;
+    }
+
+    .ready-to-join {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ready-to-join-one {
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+
+    .successful-students{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-right: 10px;
+
+    }
+
+    .student-feedback {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .trusted-companies {
+        visibility: hidden;
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .popular-course-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+.popular-course-blog{
+    display: flex;
+    flex-direction: column;
+}
+
+
+    .btn-postion {
+        margin-left: 250px;
+    }
+
+    .explore-elearning-website{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore-elearning-website img {
+        width: 100%;
+        height: 606px;
+    }
+
+    .ready-to-join {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ready-to-join-one {
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+
+    .successful-students{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    
+
+
+
+    .students-feedback {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .student-feedback {
+        
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .trusted-companies {
+        visibility: hidden;
+
+    }
 }
